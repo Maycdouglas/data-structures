@@ -9,7 +9,10 @@
     - Recomendações:
         - 451. Sort Characters By Frequency - Medium
         - 2351. First Letter to Appear Twice - Easy
+- 557 - Reverse Words in a String III - Easy
+    - Recomendações:
+        - 541. Reverse String II - Easy
 
 ## Exercícios Propostos
-- 557 - Reverse Words in a String III - Easy
+
 - 3090 - Maximum Length Substring with Two Occurrences - Easy
