@@ -12,7 +12,11 @@
 - 557 - Reverse Words in a String III - Easy
     - Recomendações:
         - 541. Reverse String II - Easy
+- 3090 - Maximum Length Substring with Two Occurrences - Easy
+    - Recomendações:
+        - 1160. Find Words That Can Be Formed by Characters - Easy
+        - 1758. Minimum Changes To Make Alternating Binary String - Easy
+        - 2516. Take K of Each Character From Left and Right - Medium
 
 ## Exercícios Propostos
 
-- 3090 - Maximum Length Substring with Two Occurrences - Easy
