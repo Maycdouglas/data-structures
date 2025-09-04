@@ -179,16 +179,53 @@ Técnica que troca espaço por tempo
         - O(n)
             - se todos os elementos forem únicos, o hash map tem o tamanho do array
 
+- Ideia central:
+    - Usar uma estrutura de dados Hash Map para armazenar as frequências(contagens) dos elementos em um array. 
+    - A chave do mapa é o elemento do array, e o valor é quantas vezes ele aparece
+
+- Sinais de uso:
+    - Qualquer problema que envolva:
+        - frequências
+        - duplicatas
+        - anagramas
+        - encontrar pares que satisfaçam uma condição
+    - Se a pergunta contém palavras como:
+        - contar
+        - distintos
+        - único
+        - duplicado
+        - anagrama
+
+- Exemplo:
+    - Dado um array e um alvo X, encontre um par que some X.
+        1. Crie um Hash Map
+        2. Percorra o array. Para cada número num:
+        3. Calcule o complemento: complemento = X - num
+        4. Verifique se o complemento já existe como chave no mapa.
+            - Se sim, você encontrou o par!
+            - Se não, adicione o num atual e seu índice ao mapa
+
 ### Algoritmo de Kadane
-É um algoritmo específico e uma ótima introdução ao conceito de Programação Dinâmica
+É um algoritmo específico e uma ótima introdução ao conceito de Programação Dinâmica.
+
+Ele resolve o problema da soma máxima de um subarray contíguo em um array que pode conter números negativos.
 
 - Complexidade:
     - Temporal:
         - O(n)
-            - ???
+            - percorre o array inteiro
     - Espacial:
         - O(1)
-            - ???
+            - usa apenas duas variáveis, independentemente do tamanho da entrada
+
+- Passos:
+    - Ele percorre o array mantendo duas variáveis:
+        - soma_maxima_atual
+            - A soma máxima do subarray que termina na posição atual.
+            - A cada passo, ela é o maior valor entre (soma_maxima_atual + elemento_atual) e o próprio elemento_atual.
+                - Isso reseta a contagem se a soma anterior se tornar negativa
+        - soma_maxima_global
+            - a maior soma_maxima_atual encontrada até agora
 
 ### Ordenação Cíclica (Cyclic Sort)
 
@@ -198,7 +235,24 @@ Técnica que troca espaço por tempo
             - Cada número é trocado no máximo uma vez para chegar à sua posição final.
     - Espacial:
         - O(1)
-            - ???
+            - A ordenação ocorre no próprio array, sem uso de array auxiliar
+
+- Ideia central:
+    - É uma técnica de ordenação in-place (sem usar memória extra) que funciona para arrays onde os números estão em um intervalo contínuo e específico.
+        - por exemplo, de 1 a N, ou de 0 a N-1
+    - A ideia é colocar cada número x em seu índice correto (que seria x-1 ou x)
+
+- Sinais de uso:
+    - o enunciado diz que o array contém número em um intervalo específico e pede para encontrar:
+        - números faltando
+        - números duplicados
+        - erros na sequência
+
+- Exemplo:
+    - Dado um array com N números distintos no intervao [0,N], encontre o número que está faltando.
+        - Use a lógica do Cyclic Sort para tentar colocar cada número num no seu índice num
+        - Percorra o array.
+            - O primeiro índice i onde array[i] != i é o número que estava faltando.
 
 ## Exercícios Resolvidos
 
