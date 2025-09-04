@@ -45,3 +45,12 @@ Temos dois tipos de complexidade estudadas:
   - Exemplo:
     - Um `loop aninhado` (um for dentro de outro for) sobre a mesma coleção.
     - Usado no `Bubblesort`
+
+### Observações
+Por que a Busca Binária é O(log n) e o MergeSort é O(n log n), se ambos usam "Dividir para Conquistar"?
+  - A diferença está no passo de "Conquistar/Combinar":
+    - Busca Binária: a cada passo, ela joga fora metade dos dados e só precisa fazer uma única comparação (O(1)) para decidir qual metade seguir. O trabalho de combinar é trivial.
+    - Mergesort: Após dividir as listas, ele precisa percorrer todos os elementos das sub-listas para combiná-las (mesclá-las) de forma ordenada. Esse passo de combinação leva tempo O(n).
+  - Resumo da Lógica:
+    - Se a cada divisão o trabalho é constante (O(1)), então a complexidade total será O(log n )
+    - Se a cada divisão o trabalho é linear (O(n)), então a complexidade total será O(n log n) 
