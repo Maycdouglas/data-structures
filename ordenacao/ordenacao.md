@@ -1,4 +1,23 @@
-## QUICKSORT
+# ORDENAÇÃO
+
+Os algoritmos de ordenação podem ser simples (n^2) ou eficentes (n log n)
+
+## ESCALABILIDADE
+
+Um algoritmo de ordenação é estável se ele preserva a ordem relativa original dos elementos que têm chaves de ordenação iguais.
+
+Se um elemento A aparecia antes de um elemento B e ambos têm o mesmo valor, após a ordenação, A ainda aparecerá antes de B. Um algotimo instável não oferece essa garantia.
+
+
+## BUBBLE SORT
+
+## SELECTION SORT
+
+## INSERTION SORT
+
+## MERGE SORT
+
+## QUICK SORT
 
 ### Observações
 Por que o algoritmo QuickSort é O(n^2) no pior caso?
