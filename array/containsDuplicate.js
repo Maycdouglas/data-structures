@@ -4,9 +4,6 @@
 // O(n)
 
 /*
-Inicialmente, minha resolução era O(n^2), pois eu iterava sobre uma lista que era o valor da chave do map.
-Após conversar com o Gemini, notei que não precisava de uma lista e sim apenas armazenar o indice da ultima posicao 
-que aquele numero foi visto
 
 */
 

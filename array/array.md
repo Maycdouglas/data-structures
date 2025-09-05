@@ -263,7 +263,7 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
 - 0387 - First Unique Character in a String - Easy
     - Recomendações:
         - 0451 - Sort Characters By Frequency - Medium
-        - 2351 - First Letter to Appear Twice - Easy
+        
 - 0557 - Reverse Words in a String III - Easy
     - Recomendações:
         - 0541 - Reverse String II - Easy
@@ -274,6 +274,8 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
         - 2516 - Take K of Each Character From Left and Right - Medium
 - 0217 - Contains Duplicate - Easy
     - veio do 0219
+- 2351 - First Letter to Appear Twice - Easy
+    - veio do 0387
 
 ## Exercícios Propostos
 
