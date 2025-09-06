@@ -267,7 +267,6 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
 - 0557 - Reverse Words in a String III - Easy
 - 3090 - Maximum Length Substring with Two Occurrences - Easy
     - Recomendações:
-        - 1160 - Find Words That Can Be Formed by Characters - Easy
         - 1758 - Minimum Changes To Make Alternating Binary String - Easy
         - 2516 - Take K of Each Character From Left and Right - Medium
 - 0217 - Contains Duplicate - Easy
@@ -276,6 +275,8 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
     - veio do 0387
 - 0541 - Reverse String II - Easy
     - veio do 0557
+- 1160 - Find Words That Can Be Formed by Characters - Easy
+    - veio do 3090
 
 ## Exercícios Propostos
 
