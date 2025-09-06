@@ -261,9 +261,6 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
     - Recomendações:
         - 0220 - Contains Duplicate III - Hard
 - 0387 - First Unique Character in a String - Easy
-    - Recomendações:
-        - 0451 - Sort Characters By Frequency - Medium
-        
 - 0557 - Reverse Words in a String III - Easy
 - 3090 - Maximum Length Substring with Two Occurrences - Easy
     - Recomendações:
@@ -278,6 +275,8 @@ Ele resolve o problema da soma máxima de um subarray contíguo em um array que 
     - veio do 3090
 - 1758 - Minimum Changes To Make Alternating Binary String - Easy
     - veio do 3090
+- 0451 - Sort Characters By Frequency - Medium
+    - veio do 0387
 
 ## Exercícios Propostos
 
